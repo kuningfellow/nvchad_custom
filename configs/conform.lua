@@ -20,6 +20,7 @@ local options = {
   formatters = {
     cpp_format = {
       command = "clang-format",
+      args = {"--assume-filename", "$FILENAME"},
       -- args = {"--style=Google"},
     },
   },
