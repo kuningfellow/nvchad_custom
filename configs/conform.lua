@@ -13,12 +13,14 @@ local options = {
 
     cpp = { "cpp_format" },
     h = { "cpp_format" },
+
+    go = { "gopls" },
 	},
 
   formatters = {
     cpp_format = {
       command = "clang-format",
-      args = {"--style=Google"},
+      -- args = {"--style=Google"},
     },
   },
 
