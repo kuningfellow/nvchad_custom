@@ -14,7 +14,7 @@ local options = {
     cpp = { "cpp_format" },
     h = { "cpp_format" },
 
-    go = { "gopls" },
+    go = { "goimports" },
 	},
 
   formatters = {
